@@ -1,0 +1,67 @@
+try:
+   file = open("hello.txt", "r", encoding="utf-8")
+   text = file.read()
+   file.close()
+   print(text)
+except FileNotFoundError:
+    print("Ошибка не тот")
+"""a=int(input("Введите первое число:"))
+b=int(input("Введите второе число:"))
+print (a/b)
+print ("найс")"""
+try:
+    a=int(input("Fiwe"))
+    b=int(input("Fuwe"))
+    print (a/b)
+except ValueError:
+    print("Нельзя вводить строки при делении")
+except ZeroDivisionError:
+    print("Нельзя делить на ноль")
+
+
+
+
+
+"""a=int(input("Введите первое число:"))
+b=int(input("Введите второе число:"))
+print (a/b)
+print ("найс")"""
+try:
+    a=int(input("Fiwe"))
+    b=int(input("Fuwe"))
+    print (a/b)
+except ValueError:
+    print("Нельзя вводить строки при делении")
+except ZeroDivisionError:
+    print("Нельзя делить на ноль")
+
+animals = ["Медведь", "Собака", "Кот", "Енот"]
+
+print = (animals(0))
+print = (animals(1))
+print = (animals(2))
+print = (animals(3))
+file = open("hello.txt", "r", encoding="utf-8")
+text = file.read()
+file.close()
+
+print(text)
+except FileNotFoundError:
+print("Ошибка не тот")
+asdf = input("Введите пароль")
+    If asdf 
+file = open("hello.txt", "r", encoding="utf-8")
+text = file.read()
+file.close()
+
+print(text)
+except FileNotFoundError:
+print("Ошибка не тот")
+try:
+    print(1 / int(input()))
+expect ZeroDivisionError:
+    print("Ошибка деления на ноль.")
+expect ValueError:
+    print("Невозможно преобразовать строку в число.")
+expect Exception:
+    print("Неизвестная ошибка.")
